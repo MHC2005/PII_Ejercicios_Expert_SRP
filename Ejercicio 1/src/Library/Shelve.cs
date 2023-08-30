@@ -16,6 +16,7 @@ namespace SRP
         }
         public void AgregarLibro (Book Libro){
             this.listaLibros.Add(Libro);
+            listaLibros = new List<Book>();
         }
         }
 
